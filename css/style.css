@@ -1,0 +1,139 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+
+
+div {
+
+   
+    text-align: right;
+    font-family: cursive;
+    background-color: #989898;
+    border-style: solid;
+}
+
+h2 {
+   
+
+    display: inline-block;
+    text-align: center;
+    align-content: flex-start;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 35px 4px 35px;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+    
+
+}
+
+.container {
+    align-content: flex-start;
+    border-color: white;
+    border-style: none;
+    background-color: white;
+}
+
+
+body {
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    
+}
+
+.div1 {
+
+    
+    height: fit-content;
+    width: 30%;
+    display: inline-block;
+    border-left-width: 5%;
+}
+
+.div2 {
+
+    height: fit-content;
+    width: 30%;
+    display: inline-block;
+}
+
+.div3 {
+
+    height: fit-content;
+    width: 30%;
+    display: inline-block;
+    border-right-width: 5%;
+    
+}
+
+.centerTitle {
+    margin-top: -3px;
+    margin-right: -3px;
+    color: white;
+    background-color: red;
+    border-color: black;
+
+}
+
+.leftTitle {
+    margin-right: -3px;
+    margin-top: -3px;
+    background-color: #fa7f72;
+    
+}
+
+.rigthTitle {
+    margin-right: -3px;
+    margin-top: -3px;
+    background-color: bisque;
+}
+
+p {
+    padding-left: 5px;
+    text-align: left;
+    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 992px) {
+    
+    .div1, .div2 {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .div3 {
+        display: inline-block;
+        width: 93%;        
+    }
+}
+
+@media (max-width: 767px){
+    .div1, .div2, .div3 {
+        width: 95% ;
+        margin-right: 15px;
+    }
+
+    
+}
+
+@media (max-width: 400px){
+    .div1, .div2, .div3 {
+        width: 300px ;
+        margin-right: 15px;
+    }
+
+    
+}
+
+
+
+
